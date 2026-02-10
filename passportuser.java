@@ -1,19 +1,13 @@
 class passportuser{
-	//static variable
-    
-	static int dcdrLocation=5;
+
+   
     public static void main(String[] args){
-		
-	//int dcdrLocation=5;
-	String email="deeksha21@gmail.com";
-	boolean emainloginSamne=true;
-	String userName="Deeksha";
-	String password="dee243/%$$%%*^";
-	String token ="45674564gj_56fghj_hjb45656";
-    String userId="deeksha21@gmail.com";
+	createpassportAccount("deeksha21@gmail.com", true ,"Deeksha" ,"dee243/%$$%%*^","45674564gj_56fghj_hjb45656","deeksha21@gmail.com");
+	}
+	public static void createpassportAccount(String email, boolean emainloginSamne , String userName ,String password,String token, String userId){
+
 	
 	System.out.println("user infomartion");
-	System.out.println("user dcdr location: " + dcdrLocation);
 	System.out.println("user email :" + email);
 	System.out.println("use email login same:" + emainloginSamne);
 	System.out.println("user name:" + userName);
