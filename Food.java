@@ -43,11 +43,6 @@ class Food {
         if (isNameValid && isCuisineValid && isPriceValid &&
             isQuantityValid && isCaloriesValid) {
 
-            name = foodName;
-            cuisine = foodCuisine;
-            price = foodPrice;
-            quantity = foodQuantity;
-            calories = foodCalories;
 
             isCreated = true;
         }
