@@ -75,13 +75,6 @@ class Movie {
            isGenre == true && isYear == true &&
            isRating == true && isLanguage == true){
 
-            movieName = name;
-            director = dir;
-            producer = prod;
-            genre = type;
-            releaseYear = year;
-            rating = movieRating;
-            language = lang;
 
             isMovieCreated = true;
         }
