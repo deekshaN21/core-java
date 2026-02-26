@@ -50,17 +50,7 @@ class Refrigerator {
             isTypeValid && isColorValid && isDoorsValid && isCompressorValid &&
             isWarrantyValid && isYearValid) {
 
-            brandName = refrigeratorBrandName;
-            modelName = refrigeratorModelName;
-            capacity = refrigeratorCapacity;
-            energyRating = refrigeratorEnergyRating;
-            type = refrigeratorType;
-            color = refrigeratorColor;
-            numberOfDoors = refrigeratorNumberOfDoors;
-            compressorType = refrigeratorCompressorType;
-            warranty = refrigeratorWarranty;
-            installationYear = refrigeratorInstallationYear;
-
+           
             isRefrigeratorCreated = true;
         }
 
