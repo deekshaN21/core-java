@@ -46,16 +46,6 @@ class PharmaceuticalCompany {
             isExpiryValid && isManufactureValid && isBatchValid &&
             isPriceValid && isApprovalValid) {
 
-            medicineName = medicineNameParam;
-            companyName = companyNameParam;
-            medicineType = medicineTypeParam;
-            dosage = dosageParam;
-            expiryDate = expiryDateParam;
-            manufacturingDate = manufacturingDateParam;
-            batchNumber = batchNumberParam;
-            price = priceParam;
-            approvalNumber = approvalNumberParam;
-
             isMedicineCreated = true;
         }
 
