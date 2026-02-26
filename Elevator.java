@@ -37,13 +37,7 @@ class Elevator {
         if (isBrandValid && isModelValid && isCapacityValid && isFloorsValid &&
             isTypeValid && isSafetyValid && isYearValid) {
 
-            brandName = elevatorBrandName;
-            modelName = elevatorModelName;
-            capacity = elevatorCapacity;
-            floorsServed = elevatorFloorsServed;
-            type = elevatorType;
-            safetyFeatures = elevatorSafetyFeatures;
-            installationYear = elevatorInstallationYear;
+
 
             isElevatorCreated = true;
         }
