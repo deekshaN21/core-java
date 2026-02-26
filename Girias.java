@@ -81,16 +81,7 @@ class Girias {
             isSpinSpeedValid && isEnergyRatingValid &&
             isInverterValid && isColorValid) {
 
-            brand = brandName;
-            model = modelName;
-            price = priceAmount;
-            capacity = machineCapacity;
-            type = washingType;
-            warranty = warrantyYears;
-            spinSpeed = spinSpeedRPM;
-            energyRating = energyStarRating;
-            inverterTechnology = inverterFeature;
-            color = machineColor;
+
 
             isCreated = true;
         }
