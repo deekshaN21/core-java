@@ -94,16 +94,6 @@ class PlayStore {
            isRating == true && isDownloads == true && isSize == true &&
            isVersion == true && isPrice == true && isOS == true){
 
-            appName = name;
-            developerName = developer;
-            category = categoryType;
-            rating = ratingValue;
-            downloads = downloadCount;
-            size = appSize;
-            version = appVersion;
-            price = appPrice;
-            requiredOS = osRequired;
-
             isAppCreated = true;
         }
 
