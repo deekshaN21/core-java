@@ -58,18 +58,7 @@ class Forever24 {
             isPriceValid && isGenderValid && isSeasonValid && isPatternValid && isFitValid &&
             isSleeveTypeValid && isOccasionValid) {
 
-            brandName = clothBrandName;
-            clothType = clothTypeName;
-            size = clothSize;
-            color = clothColor;
-            material = clothMaterial;
-            price = clothPrice;
-            gender = clothGender;
-            season = clothSeason;
-            pattern = clothPattern;
-            fit = clothFit;
-            sleeveType = clothSleeveType;
-            occasion = clothOccasion;
+
 
             isClothCreated = true;
         }
