@@ -116,16 +116,6 @@ class camera{
         isbattery == true && 
         isweight == true) {
 			
-		Brand = brand;
-		model = Model;
-		price = Price;
-		resolution = videoreso;
-		lensType = lens;
-		sensorType = sensor;
-		opticalZoom = optical;
-		videoResolution = videores;
-		batteryCapacity = battery;
-		weight = weight;
 
         iscameraCreated = true;
     }
